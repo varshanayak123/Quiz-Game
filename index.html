@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <h1>Javascript Quiz</h1>
+    <button id="Start-game"> Start Game</button>
+
+    <div class="quiz-box">
+
+        <div class="question-header">
+            <h2 id="question-number">Q.1</h2>
+            <h2 id="question">What is JavaScript?</h2>
+        </div>
+
+        <div id="options">
+
+            <div class="option-row">
+                <span class="alpha">A</span>
+                <button class="option">Programming Language</button>
+            </div>
+
+            <div class="option-row">
+                <span class="alpha">B</span>
+                <button class="option">Database</button>
+            </div>
+
+            <div class="option-row">
+                <span class="alpha">C</span>
+                <button class="option">Operating System</button>
+            </div>
+
+            <div class="option-row">
+                <span class="alpha">D</span>
+                <button class="option">Web Browser</button>
+            </div>
+
+        </div>
+
+    <button id="nextBtn">Next</button>
+
+     </div>
+
+     <div class="score-box">
+        <h1>Congratulations!!! Quiz Finished</h1>
+
+        <h2 id="result-mesage"></h2>
+
+        <h2 id="score"></h2>
+
+        <button id="play-again">Play Again</button>
+     </div>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
